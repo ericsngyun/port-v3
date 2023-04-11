@@ -5,5 +5,6 @@
 
 html {
   @apply bg-[#18181c];
-  @apply text-[#fff]
+  @apply text-[rgb(255,255,255)]
 }
+
