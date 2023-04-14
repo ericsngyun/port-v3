@@ -27,3 +27,8 @@ html {
     text-shadow: 0 0 20px #56fe01, 0 0 30px #76f508, 0 0 40px #22ee08, 0 0 50px #39ef10;
   }
 }
+
+.tv {
+  opacity: .05;
+}
+
