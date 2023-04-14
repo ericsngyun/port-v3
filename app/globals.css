@@ -2,9 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Matrix-Screen;
+  src: url("../public/fonts/MatrixSans-Screen.ttf");
+}
 
 html {
   @apply bg-[#18181c];
-  @apply text-[rgb(255,255,255)]
+  @apply text-[rgb(111,255,101)];
+  font-family: Matrix-Screen;
 }
 
+.glow {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #14f104, 0 0 20px #2ae915, 0 0 30px #19ef12, 0 0 40px #42f41e;
+  }
+  to {
+    text-shadow: 0 0 20px #56fe01, 0 0 30px #76f508, 0 0 40px #22ee08, 0 0 50px #39ef10;
+  }
+}
