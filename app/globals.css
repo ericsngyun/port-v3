@@ -8,8 +8,8 @@
 }
 
 html {
-  @apply bg-[#13131b];
-  @apply text-[rgb(213,213,213)];
+  background-color: #18181c;
+  color:#ffffff;
   font-family: Matrix-Screen;
 }
 
