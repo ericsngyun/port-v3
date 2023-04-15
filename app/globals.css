@@ -8,8 +8,8 @@
 }
 
 html {
-  @apply bg-[#18181c];
-  @apply text-[rgb(111,255,101)];
+  @apply bg-[#13131b];
+  @apply text-[rgb(213,213,213)];
   font-family: Matrix-Screen;
 }
 
@@ -21,14 +21,41 @@ html {
 
 @keyframes glow {
   from {
+    text-shadow: 0 0 10px #f7f7f7, 0 0 20px #ffffff, 0 0 30px #ededed;
+  }
+  to {
+    text-shadow: 0 0 10px #dddddd, 0 0 20px #e8e9e8, 0 0 30px #e2e2e2;
+  }
+}
+
+/* @keyframes glow {
+  from {
     text-shadow: 0 0 10px #14f104, 0 0 20px #2ae915, 0 0 30px #19ef12, 0 0 40px #42f41e;
   }
   to {
     text-shadow: 0 0 20px #56fe01, 0 0 30px #76f508, 0 0 40px #22ee08, 0 0 50px #39ef10;
   }
-}
+} */
 
 .tv {
-  opacity: .05;
+  opacity: .03;
+}
+
+.cursor {
+  opacity: 1;
+  animation: blink 1s infinite;
+}
+
+/* define the blinking animation */
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
