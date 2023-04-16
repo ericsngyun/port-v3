@@ -1,5 +1,6 @@
 'use client'
 
+import { MapPin } from 'lucide-react'
 import React, { useEffect } from 'react'
 import './TypingAnim.css'
 
@@ -9,7 +10,10 @@ function TypingAnim() {
       let data = [
         {
           AboutDevTypeText: 
-          "<span>welcome to eric_yun_terminal<br/><br/>eric loves to code and make cool stuff</span><br/><br/><br/><span>he enjoys working with<br/>"
+          "DEVLOGS: dev-001 <br/>" +
+          "NAME:  Eric Yun <br/>" +
+          "TITLE: Software Engineer <br/><br/>" +
+          "INFO: 21 year-old with a passion for web-development and bodybuilding, understanding the complex architecture of systems as well as the aesthetic potential of the human body <br/>"
         }
       ];
       
@@ -25,7 +29,7 @@ function TypingAnim() {
         (function type() {
           text = devTypeText.slice(0, ++i);
           if (text === devTypeText) return;
-          element.innerHTML = text + `<span class='blinker'></span>`;
+          element.innerHTML = text + `<span class='blinker'>&#32;</span>`;
           let char = text.slice(-1);
           if (char === "<") isTag = true;
           if (char === ">") isTag = false;
@@ -38,9 +42,9 @@ function TypingAnim() {
   return (
     <>
       <span id="AboutDevTypeText" className="typeing glow text-4xl"></span>
-      <span class='blinker' className = "text-4xl"></span>
+      <span class='blinker' className = "text-4xl">&#32;</span>
     </>
   )
 }
 
-export default TypingAnim
+export default TypingAnim;
