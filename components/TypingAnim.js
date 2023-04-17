@@ -10,10 +10,10 @@ function TypingAnim() {
       let data = [
         {
           AboutDevTypeText: 
-          "DEVLOGS: dev-001 <br/>" +
-          "NAME:  Eric Yun <br/>" +
-          "TITLE: Software Engineer <br/><br/>" +
-          "INFO: 21 year-old with a passion for web-development and bodybuilding, understanding the complex architecture of systems as well as the aesthetic potential of the human body <br/>"
+          "<br/>" +
+          "Eric Yun <br/>" +
+          "Software Engineer <br/><br/>" +
+          "I am a 21 year-old software engineer with a passion for web-development and bodybuilding, understanding the complex architecture of systems as well as the aesthetic potential of the human body <br/>"
         }
       ];
       

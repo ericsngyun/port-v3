@@ -36,7 +36,7 @@ function Nav() {
   )
 }
 
-function Overlay() {
+export function Overlay() {
 
   return (
     <>
@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <main>
       {/* <div className = "fixed h-screen w-screen scan-lines"></div> */}
-      <Overlay/>
+      {/* <Overlay/> */}
       <div className = "p-28 h-screen flex">
         <div className = "flex-col">
           {/* <h1 className = "glow lg:text-6xl sm:text-4xl cursor-pointer">

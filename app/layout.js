@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import './globals.css'
+import { Overlay } from './page'
 
 export const metadata = {
   title: 'ericyun',
@@ -11,7 +12,10 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Overlay/>
+        {children}
+      </body>
     </html>
   )
 }

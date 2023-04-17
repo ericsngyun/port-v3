@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-  
+
+
+
 /* .blinker {
     @apply text-4xl;
     opacity: 1;
