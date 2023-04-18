@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: Matrix-Screen;
-  src: url("../public/fonts/MatrixSans-Screen.ttf");
+  font-family: Kode;
+  src: url("../public/fonts/Kode-SemiBold.ttf");
 }
 
 html {
   background-color: #18181c;
-  color:#ffffff;
+  color:whitesmoke;
   font-family: Matrix-Screen;
 }
 
 .glow {
-  font-family: Matrix-Screen, sans-serif;
+  font-family: Kode;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -22,10 +22,10 @@ html {
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #f7f7f7, 0 0 20px #ffffff, 0 0 30px #ededed;
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke, 0 0 40px whitesmoke;
   }
   to {
-    text-shadow: 0 0 10px #dddddd, 0 0 20px #e8e9e8, 0 0 30px #e2e2e2;
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke, 0 0 40px whitesmoke;
   }
 }
 
@@ -60,3 +60,6 @@ html {
   }
 }
 
+.glowyellow {
+  color: yellow;
+}

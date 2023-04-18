@@ -10,10 +10,15 @@ function TypingAnim() {
       let data = [
         {
           AboutDevTypeText: 
+          "> welcome to ericyun.dev :D <br/><br/>" +
+          "&nbsp;&nbsp;> linkedin: https://linkedin.com/in/ericsungyun <br/>" +
+          "&nbsp;&nbsp;> github: https://github.com/ericsngyun <br/>" +
+          "&nbsp;&nbsp;> twitter: https://twitter.com/jozudev <br/>" +
           "<br/>" +
-          "Eric Yun <br/>" +
-          "Software Engineer <br/><br/>" +
-          "I am a 21 year-old software engineer with a passion for web-development and bodybuilding, understanding the complex architecture of systems as well as the aesthetic potential of the human body <br/>"
+          "> about me:  <br/>" +
+          "<br/>" +
+          "> hi, my name is eric <br/>" +
+          "> i am a full-stack software engineer <br/>"
         }
       ];
       
@@ -41,7 +46,7 @@ function TypingAnim() {
 
   return (
     <>
-      <span id="AboutDevTypeText" className="typeing glow text-4xl"></span>
+      <span id="AboutDevTypeText" className="typeing glow lg:text-7xl "></span>
       <span class='blinker' className = "text-4xl">&#32;</span>
     </>
   )
