@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: Kode;
-  src: url("../public/fonts/Kode-SemiBold.ttf");
+  font-family: Terminal;
+  src: url("../public/fonts/TerminalLandMono-Regular.otf");
 }
 
-html {
+* {
   background-color: #18181c;
   color:whitesmoke;
-  font-family: Matrix-Screen;
 }
 
 .glow {
-  font-family: Kode;
+  opacity: 75%;
+  font-family: Terminal, sans-serif;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -22,10 +22,10 @@ html {
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke, 0 0 40px whitesmoke;
+    text-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke, 0 0 15px whitesmoke;
   }
   to {
-    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke, 0 0 40px whitesmoke;
+    text-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke, 0 0 15px whitesmoke;
   }
 }
 
@@ -58,8 +58,4 @@ html {
   100% {
     opacity: 0;
   }
-}
-
-.glowyellow {
-  color: yellow;
 }

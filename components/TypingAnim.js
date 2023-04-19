@@ -10,15 +10,11 @@ function TypingAnim() {
       let data = [
         {
           AboutDevTypeText: 
-          "> welcome to ericyun.dev :D <br/><br/>" +
-          "&nbsp;&nbsp;> linkedin: https://linkedin.com/in/ericsungyun <br/>" +
-          "&nbsp;&nbsp;> github: https://github.com/ericsngyun <br/>" +
-          "&nbsp;&nbsp;> twitter: https://twitter.com/jozudev <br/>" +
-          "<br/>" +
-          "> about me:  <br/>" +
-          "<br/>" +
-          "> hi, my name is eric <br/>" +
-          "> i am a full-stack software engineer <br/>"
+          "> hi, im eric yun &#128075;"
+          // "connect with me: <br/><br/>" +
+          // "&nbsp;&nbsp;> linkedin: https://linkedin.com/in/ericsungyun <br/>" +
+          // "&nbsp;&nbsp;> github: https://github.com/ericsngyun <br/>" +
+          // "&nbsp;&nbsp;> twitter: https://twitter.com/jozudev <br/>" 
         }
       ];
       
@@ -46,8 +42,7 @@ function TypingAnim() {
 
   return (
     <>
-      <span id="AboutDevTypeText" className="typeing glow lg:text-7xl "></span>
-      <span class='blinker' className = "text-4xl">&#32;</span>
+      <span id="AboutDevTypeText" className="typeing glow lg:text-6xl md:text-5xl sm:text-4xl bg-transparent h-max max-w-[55%] grid place-items center"></span>
     </>
   )
 }

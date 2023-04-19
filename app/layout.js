@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import './globals.css'
 import { Overlay } from './page'
+import Marquee from '@/components/Marquee'
 
 export const metadata = {
   title: 'ericyun',
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Overlay/>
+        {/* <NavBar/> */}
         {children}
       </body>
     </html>
