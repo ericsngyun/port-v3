@@ -10,7 +10,7 @@ function TypingAnim() {
       let data = [
         {
           AboutDevTypeText: 
-          "> hi, im eric yun &#128075;"
+          "> hi i'm eric &#128075;"
           // "connect with me: <br/><br/>" +
           // "&nbsp;&nbsp;> linkedin: https://linkedin.com/in/ericsungyun <br/>" +
           // "&nbsp;&nbsp;> github: https://github.com/ericsngyun <br/>" +
@@ -42,7 +42,7 @@ function TypingAnim() {
 
   return (
     <>
-      <span id="AboutDevTypeText" className="typeing glow lg:text-6xl md:text-5xl sm:text-4xl bg-transparent h-max max-w-[55%] grid place-items center"></span>
+      <span id="AboutDevTypeText" className="typeing glow lg:text-7xl md:text-5xl sm:text-4xl bg-transparent h-max max-w-[70%] grid place-items center"></span>
     </>
   )
 }

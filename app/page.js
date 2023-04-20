@@ -40,7 +40,7 @@ export function Overlay() {
 
   return (
     <>
-      {/* <div className = "fixed h-screen w-screen bg-black opacity-20 z-20"></div> */}
+      <div className = "fixed h-screen w-screen bg-black opacity-5 z-20"></div>
       <Image className = "fixed h-screen w-screen opacity-10 z-10" src = "/tvscreen.png" height = {1000} width = {1000}/>
       <Image className = "fixed h-screen w-screen opacity-30 z-15" src = "/scanlines.png" height = {1000} width = {1000}/>
       <Image className = "tv fixed h-screen w-screen z-25" src = "/tvstatic2.gif" height = {1000} width = {1000}/>
