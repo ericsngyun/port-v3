@@ -1,10 +1,10 @@
 import React from 'react'
-import './tech.module.css'
+import '../globals.css'
 
 function page() {
   return (
-    <div className = "svg-container">
-      
+    <div className = "glow">
+      my stack
     </div>
   )
 }

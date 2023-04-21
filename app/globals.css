@@ -8,13 +8,13 @@
 }
 
 * {
-  cursor:crosshair;
+  cursor: crosshair;
   background-color: #18181c;
   color:whitesmoke;
 }
 
 .glow {
-  opacity: 75%;
+  opacity: 100%;
   font-family: Terminal, sans-serif;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -30,6 +30,10 @@
   }
 }
 
+.glow:hover{
+  text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke;
+}
+
 /* @keyframes glow {
   from {
     text-shadow: 0 0 10px #14f104, 0 0 20px #2ae915, 0 0 30px #19ef12, 0 0 40px #42f41e;
@@ -40,7 +44,7 @@
 } */
 
 .tv {
-  opacity: .02;
+  opacity: .005;
 }
 
 .cursor {

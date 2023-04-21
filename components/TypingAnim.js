@@ -4,13 +4,14 @@ import { MapPin } from 'lucide-react'
 import React, { useEffect } from 'react'
 import './TypingAnim.css'
 
-function TypingAnim() {
+function TypingAnim({ text }) {
 
     useEffect(() => {
       let data = [
         {
           AboutDevTypeText: 
-          "> hi i'm eric &#128075;"
+          text
+          // "> hi i'm eric &#128075;"
           // "connect with me: <br/><br/>" +
           // "&nbsp;&nbsp;> linkedin: https://linkedin.com/in/ericsungyun <br/>" +
           // "&nbsp;&nbsp;> github: https://github.com/ericsngyun <br/>" +
